@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+            <title>Exemple de Github</title>
+            
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+                
+                <!-- Optional theme -->
+            <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href="estil.css">  
+                    
+    </head>
+    <body>
+        <div class="container theme-showcase" role="main">
+            <div class="jumbotron">
+                <h1>Github > Crea</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Crea un nou repositori</h3>
+                        </div>
+                        <div class="panel-body">
+                            
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon">Nom</span> <input type="text"
+                                    class="form-control" id="repository_name_to_create">
+                                    </div>
+                            
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon">Descripció</span> <input
+                                    type="text" class="form-control" id="description_to_create">
+                                    </div>
+                            
+                            <span id="create_result"></span>
+                            
+                        </div>
+                    </div>
+                </div><!-- /.col-sm-8 -->
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-info" id="button_to_create">Crea un nou repositori</button>
+                </div>
+            </div>
+      
+            
+        </div>
+    
+        
+          
+        <script src="./js/jquery-2.1.3.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        
+        <!-- Event and AJAX functions -->
+        <script type="text/javascript" src="./js/github.js"></script>
+        <script src="./js/jquery.cookie.js"></script>
+    </body>
+</html>
